@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Do I get an Icon?</title>
+  <link rel="manifest" href="manifest.json">
+  <!--  Styles  -->
+  <link rel="stylesheet" href="c/default.css">
+</head>
+<body>
+  <h1>Will the browser pick up the manifest icon?</h1>
+  <p>Or will it pretend no icon exists?</p>
+  
+  <!-- Scripts -->
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "dir": "ltr",
+  "lang": "en-US",
+  "name": "Do I get an Icon?",
+  "short_name": "Icon?",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://friendly-williams-b1d86c.netlify.app/",
+  "theme_color": "transparent",
+  "orientation": "any",
+  "background_color": "transparent",
+  "icons": [
+    {
+      "src": "manifest-360.gif",
+      "type": "image/gif",
+      "sizes": "360x360"
+    },
+    {
+      "src": "manifest-256.gif",
+      "type": "image/gif",
+      "sizes": "256x256"
+    },
+    {
+      "src": "manifest-64.gif",
+      "type": "image/gif",
+      "sizes": "64x64"
+    },
+    {
+      "src": "manifest-32.gif",
+      "type": "image/gif",
+      "sizes": "32x32"
+    }
+  ]
+}
